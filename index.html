@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My website</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section header>
+      <div class="container-fluid">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <img
+              src="./images/Alrashdan logo.png"
+              alt="Company's logo"
+              height="50px"
+            />
+            <span class="fs-4">Alrashdan's Housing Company</span>
+          </a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="./index.html">
+                <button type="button" class="btn btn-dark">Home</button></a
+              >
+            </li>
+
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item">
+              <a href="./about.html" class="nav-link">About</a>
+            </li>
+          </ul>
+        </header>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./images/Untitled.png"
+            class="d-block mx-lg-auto img-fluid me-5 circle-image"
+            alt="Bootstrap Themes"
+            width="700"
+            height="800"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Alrashdan's Housing Company
+          </h1>
+          <p class="lead">استثمارك الذكي لحياة أفضل</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              إحجز الان
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              الشقق المتاحة
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section carousel>
+      <div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide mb-0">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/_EST1244.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/_EST1204.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/_EST1198.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <section features>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 mt-0">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                <use xlink:href="#toggles2"></use>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">نهجنا</h3>
+              <p>
+                تبدأ رحلتنا بالجودة من اللحظة الأولى؛ في اختيار المواقع
+                الاستراتيجية التي تضمن لكم سهولة الوصول والهدوء. مروراً بالتعاون
+                مع أفضل المهندسين المعماريين لتقديم تصاميم عصرية تستغل كل متر
+                مربع بذكاء، وانتها ءً باختيار أجود مواد البناء والتشطيبات التي
+                .تضمن لكم قيمة تدوم طويلاً
+              </p>
+              <a href="#" class="btn btn-primary"> الشقق المتاحة </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                <use xlink:href="#cpu-fill"></use>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">التزامنا تجاهكم</h3>
+              <p>
+                التزامنا تجاهكم يتجاوز تسليم المفتاح. نحن نعدكم بالشفافية
+                الكاملة، والاهتمام بأدق التفاصيل، وتقديم خدمة عملاء استثنائية
+                ترافقكم في كل خطوة من رحلة امتلاك منزلكم الجديد. هدفنا ليس فقط
+                أن نلبي توقعاتكم، .بل أن نتجاوزها
+              </p>
+              <a href="#" class="btn btn-primary"> الشقق المتاحة </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section footer>
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link px-2 text-body-secondary"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-body-secondary"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a href="./about.html" class="nav-link px-2 text-body-secondary"
+                  >About</a
+                >
+              </li>
+            </ul>
+            <p class="text-center text-body-secondary">
+              © 2025 Alrashdan's housing company
+            </p>
+          </footer>
+        </div>
+      </section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
